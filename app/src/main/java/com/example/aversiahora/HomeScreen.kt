@@ -21,7 +21,7 @@ fun HomeScreen(
     onLogout: () -> Unit
 ) {
     // ---------------------------------------------------------
-    // ESTADO: controla el menú overflow y el diálogo
+    // ESTADO: controla el menú overflow y el diálogo ////
     // ---------------------------------------------------------
     var menuExpanded by remember { mutableStateOf(false) }
     var showAboutDialog by remember { mutableStateOf(false) }
